@@ -1,0 +1,57 @@
+BODY {
+  background: white;
+  font: 16px/1 'Trebuchet MS', Verdana, sans-serif;
+  }
+
+UL {
+  padding: 0;
+  list-style: none;
+}
+LI {
+  width: 100%;
+  height: 8em;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  text-shadow: 0 0 5px rgba(0,0,0,.9);
+  color: #FFF;
+  }
+
+.one {
+   background: linear-gradient(0deg, orangered, gold);
+  }
+.two {
+   background: linear-gradient(to bottom right, green, blue);
+  }
+.three {
+   background: linear-gradient(black, white, green, gold);
+  }
+.four {
+   background: linear-gradient(purple, yellow);
+  }
+.five {
+   background: radial-gradient(skyblue, gold);
+  }
+.leftimg {
+   float:left;
+   margin: 7px 7px 7px 0;
+  }
+.rightimg  {
+   float: right;
+   margin: 7px 0 7px 7px;
+  }
+.reflection {
+    transform: scale(-1, 1);
+}
+.imgright {
+    transform: rotate(90deg);
+}
+.sdvig {
+  position: absolute; right: 240px;
+}
+.naklon {
+    transform: skewX(20deg)
+}

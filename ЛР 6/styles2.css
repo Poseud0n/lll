@@ -1,0 +1,84 @@
+body{   
+    width: 100%;
+    height: 100%;
+    background: url(underwater-717622_960_720.jpg) no-repeat;
+    background-size: 100%;
+} 
+
+.container2 {
+  animation: moveRightLeft 3s infinite alternate;
+}
+
+ 
+@keyframes moveRightLeft { 
+
+    0% { 
+        transform: translateX(0px); 
+    } 
+    
+    100% { 
+        transform: translateX(400px); 
+    } 
+}
+
+.container1 {
+  animation: moveRightLeft1 3s infinite alternate;
+}
+
+ 
+@keyframes moveRightLeft1 { 
+
+    0% { 
+        transform: translateX(0px); 
+    } 
+    
+    100% { 
+        transform: translateX(400px); 
+    } 
+}
+
+.container3 {
+  animation: moveRightLeft2 3s infinite alternate;
+}
+
+ 
+@keyframes moveRightLeft2 { 
+
+    0% { 
+        transform: translateX(50px); 
+    } 
+    
+    100% { 
+        transform: translateX(400px); 
+    } 
+}
+.container4 {
+  animation: moveRightLeft3 3s infinite alternate;
+}
+
+ 
+@keyframes moveRightLeft3 { 
+
+    0% { 
+        transform: translateX(0px); 
+    } 
+    
+    100% { 
+        transform: translateY(400px); 
+    } 
+}
+.container5 {
+  animation: moveRightLeft5 3s infinite alternate;
+}
+
+ 
+@keyframes moveRightLeft5 { 
+
+    0% { 
+        transform: translateY(300px); 
+    } 
+    
+    100% { 
+        transform: translateX(30px); 
+    } 
+}

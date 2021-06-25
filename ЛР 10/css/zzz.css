@@ -1,0 +1,36 @@
+body {
+	background-color: #ebebeb;
+}
+.grid {
+	background-color: #ebebeb;
+}
+.grid__block {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 200px;
+}
+.grid__items {
+	text-align: center;
+	margin: 0 15px 30px;
+	border: 2px dashed red;
+}
+.grid__items img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.grid__blocks {
+	display: grid;
+	grid-template-columns: 50% 50% 50% 50%;
+	grid-template-rows: 200px;
+}
+.grid__subblock {
+	text-align: center;
+	margin: 0 15px;
+	border: 2px dashed red;
+}
+.grid__subblock img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

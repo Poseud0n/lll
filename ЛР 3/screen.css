@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16pt;
+  background-color: ffaf7a
+  color: #333
+}
+
+A2 {
+  color: #66CDAA;
+  text-weight: bold;
+  font-size: 16px;
+}
+
+A1 {
+  font-size: 16px;
+  color: #FFA500;
+}
+
+A3 {
+  font-size: 16px;
+  color: #9932CC;
+}
+
+A4 {
+  color: #45cea2;
+  text-weight: bold;
+  font-size: 16px;
+}
